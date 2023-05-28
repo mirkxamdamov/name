@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const { action: invoicesAction, reducer: invoicesReducer } = createSlice(
+export const { actions: invoicesAction, reducer: invoicesReducer } = createSlice(
   {
     name: "invoices",
     initialState: {
@@ -10,7 +10,8 @@ export const { action: invoicesAction, reducer: invoicesReducer } = createSlice(
     },
     reducers: {
       setInvoices(state, action) {
-        console.log(action);
+        state.invoices = action.payload
+        state.loading = false
     },
     },
   }

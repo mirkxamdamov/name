@@ -1,34 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
-.home {
-  width: 103px;
-  height: 100%;
-  background: #373b53;
-  border-radius: 0px 20px 20px 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-.section-btn {
+.parent__home__page{
+  height: 100%;
+  background: #F8F8FB;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.sidebar{
+  overflow: scroll;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.section__btn {
   position: absolute;
   right: 355px;
 }
-.mt91 {
-  margin-top: 91px;
+.Nav {
+  margin-bottom: 91px;
 }
-.invoices {
-  background: #ffffff;
-  display: flex;
-  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
-  border-radius: 8px;
-  height: 81.72000122070312px;
-  width: 730px;
+
+.Select__status{
+  border: none;
+  outline: none;
 }
-.gap43{
-    display: flex;
-    align-items: center;
-    gap: 43px;
-}
-.colorBlue{
-    color: #888EB0;
-}
-.btn-drop {
+
+.btn__drop {
+  cursor: pointer;
   border: none;
   height: 48px;
   width: 150px;
@@ -41,10 +48,10 @@
   line-height: 15px;
   color: #ffffff;
 }
-.section {
+.nav__section {
   padding-left: 252px;
 }
-.small-text {
+.small__text {
   font-family: "Spartan";
   font-style: normal;
   font-weight: 500;

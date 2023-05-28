@@ -1,0 +1,55 @@
+.invoices__Item {
+  color: #888eb0;
+  width: 830px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 5px;
+  cursor: pointer;
+  background: #ffffff;
+  display: flex;
+  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+  border-radius: 8px;
+  height: 81.72000122070312px;
+}
+.Not__page {
+  margin-left: 200px;
+}
+.invoices__Item:active {
+    position: relative;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 5px;
+  background: #ffffff;
+  display: flex;
+  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.100397);
+  border-radius: 8px;
+  width: 830px;
+  height: 81.72000122070312px;
+  border: 1px solid #7c5dfa;
+}
+.gap__43px {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+.status__pending {
+  height: 50px;
+  width: 124px;
+  color: #ff8f00;
+  padding: 13px 17px;
+  background: rgba(255, 184, 6, 0.462);
+  border-radius: 6px;
+}
+.status__paid {
+  height: 50px;
+  width: 124px;
+  color: #33d69f;
+  padding: 13px 17px;
+  background: #38eeb15d;
+  border-radius: 6px;
+}
+.status__price {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+}

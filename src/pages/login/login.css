@@ -1,0 +1,20 @@
+.row__login {
+  flex-direction: column;
+  height: 100vh;
+}
+
+.input__login {
+  padding: 15px 20px;
+  border: none;
+  width: 300px;
+}
+.input__login:focus{
+  outline: none;
+}
+.login__btn {
+  background: #7c5dfa;
+  border-radius: 24px;
+  color: white;
+  padding: 16px 24px;
+  height: 48px;
+}

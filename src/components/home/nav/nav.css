@@ -1,0 +1,19 @@
+.user__icon {
+  color: white;
+  position: absolute;
+  bottom: 31px;
+  font-size: 40px;
+  left: 31px;
+}
+.home__page {
+  width: 103px;
+  height: 100%;
+  background: #373b53;
+  border-radius: 0px 20px 20px 0px;
+}
+#root,
+body,
+html,
+header {
+  height: 100%;
+}
